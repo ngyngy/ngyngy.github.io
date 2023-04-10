@@ -1,7 +1,7 @@
 /* ===========================================================
  * sw.js
  * ===========================================================
- * Copyright 2016 @huxpro
+ * Copyright 2023 @南宫远
  * Licensed under Apache 2.0
  * service worker scripting
  * ========================================================== */
@@ -31,9 +31,9 @@ const PRECACHE_LIST = [
 ]
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
-  "huangxuan.me",
-  "yanshuo.io",
-  "cdnjs.cloudflare.com"
+  "ngy123.com",
+  "ngy123.com",
+  "ngy123.com"
 ]
 const DEPRECATED_CACHES = ['precache-v1', 'runtime', 'main-precache-v1', 'main-runtime']
 
@@ -92,7 +92,7 @@ const getRedirectUrl = (req) => {
 
 
 /**
- *  @Lifecycle Install
+ *  @ngy Install
  *  Precache anything static to this version of your app.
  *  e.g. App Shell, 404, JS/CSS dependencies...
  *
